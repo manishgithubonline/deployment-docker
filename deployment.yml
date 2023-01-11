@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: myapp
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: argo-web
@@ -14,7 +14,7 @@ spec:
      spec:
         containers:
         - name: c1
-          image: manishhubdocker/testfb:v19
+          image: manishhubdocker/testfb:v20
           imagePullPolicy: Always
           stdin: true
           tty: true
