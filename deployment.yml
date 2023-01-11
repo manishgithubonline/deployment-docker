@@ -14,7 +14,7 @@ spec:
   spec:
    containers:
    - name: c1
-      image: manishhubdocker/testfb:v5
+      image: manishhubdocker/testfb:v6
       imagePullPolicy: Always
       stdin: true
       tty: true
